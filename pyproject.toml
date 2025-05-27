@@ -1,0 +1,13 @@
+[project]
+name = "snakes-and-ladders"
+version = "0.0.1"
+description = "Experimental code"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.distutils.egg_info]
+egg_base = "."
+
+[tool.setuptools]
+packages = ["game"]
