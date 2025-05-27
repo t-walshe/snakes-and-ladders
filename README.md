@@ -12,3 +12,30 @@ The board game [Snakes and Ladders](https://en.wikipedia.org/wiki/Snakes_and_lad
 * **Player** - Unlike the traditional luck-based version of Snakes and Ladders, we allow the LLM to pick the outcome of their dice roll. In the player role, we measure the ability of an LLM to "think" strategically and select an optimal set of moves under a given ruleset.
 
 The work of Chu et al. in [SFT Memorizes, RL Generalizes](https://arxiv.org/abs/2501.17161) motivates further work to understand the impact of post-training method on generalization when applied here. 
+
+# Installation
+## Setup
+1. **Install UV**: We use [UV](https://astral.sh/blog/uv) for package and project management. Install it in your global environment with:
+
+```bash
+python3 -m pip install uv
+```
+
+2. **Clone this repo**:
+
+```bash
+git clone https://github.com/t-walshe/snakes-and-ladders
+```
+
+3. **Environment config**:
+
+```bash
+uv venv
+uv sync
+```
+
+4. **Install in editable mode**:
+
+```bash
+uv pip install --force-reinstall --no-deps -e .
+```
