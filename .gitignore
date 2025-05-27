@@ -174,5 +174,5 @@ cython_debug/
 .pypirc
 
 # Ignore all data
-data/
+data/*
 !data/README.md
