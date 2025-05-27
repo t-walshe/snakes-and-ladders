@@ -31,6 +31,7 @@ git clone https://github.com/t-walshe/snakes-and-ladders
 
 ```bash
 uv venv
+uv init
 uv sync
 ```
 
